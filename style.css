@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.design {
+    background-color: #f9e4e4; /* Color similar al de la imagen */
+}
+
+.innovation {
+    background-color: #ffffff; /* Color similar al de la imagen */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #666;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
