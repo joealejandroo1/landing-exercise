@@ -33,6 +33,7 @@ body{
     background-color: #ffffff;
     position: sticky;
     border-bottom: solid 1px #e5e5e5;
+    padding: 5px;
 }
 
 .logo-container{
@@ -40,7 +41,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 10px;
 }
 
 .nav-links-container{
@@ -55,7 +56,7 @@ body{
     margin-right: 2px;
     display: inline;
     list-style: none;
-    padding: 0 20px;
+    padding-right: 10px;
 }
 
 .nav-links a{
